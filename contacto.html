@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Particles JS</title>
+    <title>Contacto</title>
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/estilos.css">    
 </head>
@@ -27,14 +27,19 @@
         <div class="contenido-descripcion">
             <div>
                 <h1 class="titulo">
-                    <span>Calle Frias</span>
-                    <span>Jesus Rafael</span>
+                    <span>Contacto</span>
                 </h1>
                 <article class="descripcion">
-                    <p>Tengo 17 y soy estudiante de la carrera de Gestion de Sistemas de Informacion, 
-                       actualmente cursando el 1er ciclo. Mi hobbies son ver peliculas y series de animes, 
-                       jugar algunos juegos RPG y de ritmo, ademas tambien de leer libros y comics que me interesen.</p>
-                    <a href="#" class="btn-link">Más Informacion</a>
+                    <p>Si desea contactarme puede enviar el siguiente formulario con algunos de sus datos</p><br>
+                    <form>
+                        <label for="nombres">Nombre y Apellido</label>
+                        <input type="text" id="nombres" placeholder="Ingrese su nombre completo" autocomplete="on" required><br><br>
+                        <label for="correo">Correo Electronico</label>
+                        <input type="email" id="correo" placeholder="Ingrese su correo electronico" autocomplete="on" required><br><br>
+                        <label for="coment">Mensaje</label><br><br>
+                        <textarea id="coment" cols="45" rows="5"></textarea><br><br>
+                        <input type="submit" id="enviar">
+                    </form>
                 </article>
             </div>
         </div>

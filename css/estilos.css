@@ -112,6 +112,10 @@ body {
 }
 
 
+.descripcion p {
+    font-weight: 500;
+}
+
 @keyframes parpadeo  {
     0%, 41%, 45%, 47%, 49.5%, 100%  { 
         opacity: 1;
@@ -120,4 +124,40 @@ body {
     42%, 44%, 46%,48%,  50%  { 
         opacity: 0; 
     }
+}
+
+.hab {
+    display: flex;
+}
+
+.hab img {
+    margin-right: 50px;
+    margin-top: 15px;
+}
+
+.proyecto {
+    display: flex;
+}
+.proyecto img {
+    margin-right: 45px;
+    margin-top: 20px;
+}
+
+label {
+    font-weight: 400;
+    margin-right: 5px;
+}
+
+input {
+    padding: 5px;
+    width: 190px;
+}
+
+#enviar {
+    margin-left: 65px;
+    background-color: #10a3f8;
+    border: 0px;
+    border-radius: 5px;
+    color: black;
+    font-weight: 600;
 }
